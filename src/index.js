@@ -7,17 +7,18 @@ import Total from ',/Total.js'
 const App = () => {
   const course = 'Half Stack application development'
   const part1 = {
-    'Fundamentals of React',
-    exercises1 = 10
+    name: "Fundamentals of React",
+    exercises1 : 10
   }
 
   const part2 = {
-    'Using props to pass data',
-    exercises2 = 7
+    name: "Using props to pass data",
+    exercises2 : 7
   }
+
   const part3 = {
-    'State of a component',
-    exercises3 = 14
+    name: "State of a component",
+    exercises3 : 14
   }
 
   return (
